@@ -6,7 +6,6 @@ from time import sleep
 from time import time, ctime
 from getpass import getuser
 import os
-import GUI
 
 root = Tk()
 root.title('ScreenShot v.1')
@@ -24,8 +23,6 @@ def shot():
         img.save('%s\%s.png'%(pathh, filename))
     except:
         img.save("%s\ScreenShot %s.png"%(pathh,t))
-# show the gui again
-GUI.show_me()
         
 lbl = Label(text="Enter File name :").pack()
 ent = Entry()
