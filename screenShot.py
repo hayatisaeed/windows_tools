@@ -23,7 +23,9 @@ def shot():
         img.save('%s\%s.png'%(pathh, filename))
     except:
         img.save("%s\ScreenShot %s.png"%(pathh,t))
-
+# show the gui again
+GUI.show_me()
+        
 lbl = Label(text="Enter File name :").pack()
 ent = Entry()
 ent.pack()
