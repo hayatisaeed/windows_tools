@@ -6,6 +6,7 @@ from time import sleep
 from time import time, ctime
 from getpass import getuser
 import os
+import GUI
 
 root = Tk()
 root.title('ScreenShot v.1')
