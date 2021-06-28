@@ -23,6 +23,8 @@ def shot():
         img.save('%s\%s.png'%(pathh, filename))
     except:
         img.save("%s\ScreenShot %s.png"%(pathh,t))
+    # show the window again
+    root.deiconify()
         
 lbl = Label(text="Enter File name :").pack()
 ent = Entry()
